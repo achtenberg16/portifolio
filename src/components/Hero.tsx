@@ -2,7 +2,7 @@ import React from "React"
 import heroIcon from "../assets/heroImg.png"
 import Vetor from "../assets/Vetor"
 import useWindowSize from '../hooks/useWindowSize'
-import VetorLagerge from "../assets/VetorLarge"
+import VetorLarge from "../assets/VetorLarge"
 import Arrow from '../assets/Arrow'
 
 export default function Hero () {
@@ -28,7 +28,7 @@ export default function Hero () {
           <span 
           className="absolute bottom-0 md:bottom-[-5px] left-0">
           {
-            width >= 768 ? <VetorLagerge /> : <Vetor />
+            width >= 768 ? <VetorLarge /> : <Vetor />
           }
           </span>
         </span> e ajudo a evoluir seu negócio através de software!
