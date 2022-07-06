@@ -1,6 +1,10 @@
 import VetorAboutMin from "../assets/VetorAboutMin"
 import Avatar from '../assets/avatar.jpg'
 import useWindowSize from "../hooks/useWindowSize"
+import jsIcon from "../assets/js.svg"
+import reactIcon from "../assets/react.svg"
+import mysqlIcon from "../assets/mysql.svg"
+
 export default function About () {
   const {width = 0} = useWindowSize()
   return(
@@ -16,6 +20,22 @@ export default function About () {
         <br /> <br />
         Hoje construo aplicações fullstack!</p>
         <img src={Avatar} className="" width={width > 1258 ? 400 : 300 }/>
+      </div>
+      <div>
+        <h2 className="text-[36px] md:text-[52px] mt-[32px] lg:mt-[-100px]">
+          Skills
+        </h2>
+        <div className="flex gap-[15px] md:gap-[30px]">
+          <span className="flex flex-col items-center text-gray-900">
+            <img className="bg-lightBlue p-[14px] rounded-[20px]" width="84px" src={reactIcon}/> React
+            </span>
+          <span className="flex flex-col items-center text-gray-900">
+            <img className="p-[14px] bg-green-300 rounded-[20px]" width="80px" src={jsIcon}/> JS
+            </span>
+          <span className="flex flex-col items-center text-gray-900">
+            <img className="py-[24px] px-[10px] bg-blue-600 rounded-[20px]" src={mysqlIcon}/>Mysql
+            </span>
+        </div>
       </div>
     </div>
   ) 

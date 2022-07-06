@@ -19,9 +19,14 @@ module.exports = {
         "gray-text": "#C4C4CC",
         "gray-textA": "#8D8D99",
         "blue-text": "#40C4FF",
+        "blue-600": "#00618A",
         "white-200": "#EFFFFA",
         "green-500": "#22C55E",
+        "green-300": "#84CC16",
         "purple": "#A855F7"
+      },
+      screens: {
+        "lg": "1115px"
       }
     },
   },
