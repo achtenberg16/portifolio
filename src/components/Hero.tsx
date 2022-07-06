@@ -2,7 +2,7 @@ import React from "React"
 import heroIcon from "../assets/heroImg.png"
 import Vetor from "../assets/Vetor"
 import useWindowSize from '../hooks/useWindowSize'
-import VetorLagerge from "../assets/vetorLarge"
+import VetorLagerge from "../assets/VetorLarge"
 import Arrow from '../assets/Arrow'
 
 export default function Hero () {

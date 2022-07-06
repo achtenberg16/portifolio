@@ -1,6 +1,6 @@
 import React from "react"
-import GithubIcon from '../assets/githubIcon'
-import DeployIcon from '../assets/deployiCon'
+import GithubIcon from '../assets/GithubIcon'
+import DeployIcon from '../assets/DeployiCon'
 
 interface IcardProps {
   title: string;
