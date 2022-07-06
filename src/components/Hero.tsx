@@ -1,4 +1,3 @@
-import React from "React"
 import heroIcon from "../assets/heroImg.png"
 import Vetor from "../assets/Vetor"
 import useWindowSize from '../hooks/useWindowSize'
