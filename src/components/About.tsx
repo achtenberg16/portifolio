@@ -8,7 +8,7 @@ import mysqlIcon from "../assets/mysql.svg"
 export default function About () {
   const {width = 0} = useWindowSize()
   return(
-    <div className="max-w-[1200px] w-[74%] mx-auto mt-[151px]">
+    <div id="sobre" className="max-w-[1200px] w-[74%] mx-auto mt-[151px]">
       <h2 className="text-[56px] leading-[50px] font-normal relative">Sobre<br />mim 
         <span className="absolute bottom-[-15px] left-[-3px]">
           <VetorAboutMin />

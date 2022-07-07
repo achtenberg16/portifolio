@@ -44,7 +44,7 @@ const Projectslist: IcardProps[] = [{
 
 export default function Projects () {
  return (
-   <div className="flex flex-col items-start max-w-[1200px] w-[74%] mx-auto">
+   <div id="projetos" className="flex flex-col items-start max-w-[1200px] w-[74%] mx-auto">
       <h1 className="text-gray-900 text-[56px] leading-[50px] my-10 md:text-[92px] md:leading-[82px] xl:mt-[200px]">Ultimos<br />Projetos</h1>
      <div className="flex gap-[47px] flex-wrap">
       {Projectslist.map(project => <ProjectCard {...project}/>)}
