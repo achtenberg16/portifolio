@@ -8,13 +8,12 @@ export default function MenuModal () {
      animate={{ opacity: 1, x: 0 }}
      transition={{ duration: 0.25 }}
      exit={{ opacity: 0, x: '-100%' }}
-     className="bg-yellow-50 w-72 fixed top-0 h-full"
+     className="w-[177px] h-[197px] bg-gray-100 absolute rounded-[18px] flex items-center justify-center top-[42px] right-[-12px]"
     >
       <ul className="flex flex-col gap-1 py-5 px-4">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Ultimos Projetos</a></li>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Skills</a></li>
+        <li><a href="#projetos" className="text-yellow">Projetos</a></li>
+        <li><a href="#sobre" className="text-lightBlue">Sobre mim</a></li>
+        <li><a href="#contato" className="text-emerald">Contato</a></li>
       </ul>
     </motion.div>
   )

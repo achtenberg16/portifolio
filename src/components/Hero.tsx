@@ -38,7 +38,7 @@ export default function Hero () {
           href="https://www.linkedin.com/in/alessandroacht/" target="_blank">
             Contato
           </a>
-          <a href="#" className="flex items-center md:text-lg">
+          <a href="https://drive.google.com/file/d/1VteJ4lfwWUEb7Zf26UsQfVLMg-ll_w8E/view?usp=sharing" className="flex items-center md:text-lg">
             Download CV<Arrow /></a>
         </div>
     </div>

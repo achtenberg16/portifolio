@@ -8,7 +8,7 @@ export default function Header (): JSX.Element {
   const [menuIsOpen, setMenuIsopen] = useState(false)
  return (
   <>
-  <header className="flex justify-between max-w-[1200px] w-[74%] mx-auto mt-[30px]">
+  <header className="flex justify-between max-w-[1200px] w-[74%] mx-auto mt-[30px] relative">
     <div className="flex gap-3 items-center">
       <HeaderLogo /><p>Achtenberg</p>
     </div>
@@ -19,12 +19,12 @@ export default function Header (): JSX.Element {
     >
       {menuIsOpen? <HeaderMenuOpen /> : <HeaderMenuIconClosed />}
     </button>
-  </header>
-   {
+    {
     menuIsOpen && (
       <MenuModal />
     )
    }
+  </header>
   </>
  )
 }
