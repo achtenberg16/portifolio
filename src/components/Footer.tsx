@@ -7,7 +7,8 @@ import footerImg from "../assets/footerIMG.jpg"
 export default function Footer () {
   const { width = 0 } = useWindowSize()
   return (
-  <footer className="bg-gray-900 text-white px-[13%] mt-[40px] pt-[50px] relative">
+  <div className="bg-gray-900">
+  <footer className= "max-w-[1200px] min-w-[327px] w-[74%] mx-auto text-white mt-[40px] pt-[50px] relative">
     <div className="flex justify-start gap-10 lg:mt-[120px]">
     <div>
         <strong className="text-[56px] font-medium leading-[50px] max-w-[150px] block lg:text-[92px] lg:leading-[94px] lg:max-w-[474px]">
@@ -38,5 +39,7 @@ export default function Footer () {
         <img src={raffo} alt="icone do designer"/>
       </a></p>
     </div>
-  </footer>)
+  </footer>
+  </div>
+  )
 }
